@@ -1,0 +1,122 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "Microsoft.Toolkit.Diagnostics/7.1.2": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Microsoft.Toolkit.Diagnostics.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/Microsoft.Toolkit.Diagnostics.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.Toolkit.Diagnostics/7.1.2": {
+      "sha512": "W4nhHiYbFbSLuDQGrf+Tpjfa3K0eMO7/G69xb1kZp6Kkst6wF0hZxk3whgDvkuSm2K+advhYB0wkD/ptQs+l/A==",
+      "type": "package",
+      "path": "microsoft.toolkit.diagnostics/7.1.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "License.md",
+        "ThirdPartyNotices.txt",
+        "lib/net5.0/Microsoft.Toolkit.Diagnostics.dll",
+        "lib/net5.0/Microsoft.Toolkit.Diagnostics.pdb",
+        "lib/net5.0/Microsoft.Toolkit.Diagnostics.xml",
+        "lib/netstandard1.4/Microsoft.Toolkit.Diagnostics.dll",
+        "lib/netstandard1.4/Microsoft.Toolkit.Diagnostics.pdb",
+        "lib/netstandard1.4/Microsoft.Toolkit.Diagnostics.xml",
+        "lib/netstandard2.0/Microsoft.Toolkit.Diagnostics.dll",
+        "lib/netstandard2.0/Microsoft.Toolkit.Diagnostics.pdb",
+        "lib/netstandard2.0/Microsoft.Toolkit.Diagnostics.xml",
+        "lib/netstandard2.1/Microsoft.Toolkit.Diagnostics.dll",
+        "lib/netstandard2.1/Microsoft.Toolkit.Diagnostics.pdb",
+        "lib/netstandard2.1/Microsoft.Toolkit.Diagnostics.xml",
+        "microsoft.toolkit.diagnostics.7.1.2.nupkg.sha512",
+        "microsoft.toolkit.diagnostics.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "Microsoft.Toolkit.Diagnostics >= 7.1.2"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\vinit\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Vinicius\\TesteSoftware\\Domain\\Domain.csproj",
+      "projectName": "Domain",
+      "projectPath": "C:\\Vinicius\\TesteSoftware\\Domain\\Domain.csproj",
+      "packagesPath": "C:\\Users\\vinit\\.nuget\\packages\\",
+      "outputPath": "C:\\Vinicius\\TesteSoftware\\Domain\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\vinit\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "dependencies": {
+          "Microsoft.Toolkit.Diagnostics": {
+            "target": "Package",
+            "version": "[7.1.2, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

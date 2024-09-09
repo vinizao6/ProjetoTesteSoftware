@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "GRiXMcrEVlcFWtEhTp2+91d82EQxAciWpKQPPuAcCkrVaEIHXWgudXODyS46nB9TS7kwbkbBjBnHXgdmmXwY+Q==",
+  "success": true,
+  "projectFilePath": "C:\\Vinicius\\TesteSoftware\\Domain\\Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\vinit\\.nuget\\packages\\microsoft.toolkit.diagnostics\\7.1.2\\microsoft.toolkit.diagnostics.7.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}
