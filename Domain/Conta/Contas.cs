@@ -1,6 +1,7 @@
 using Microsoft.Toolkit.Diagnostics;
 
-namespace ProjetoTeste.sln.Domain.Conta;
+
+namespace ProjetoTeste.Domain.Conta;
 
 
 public partial class Contas{
@@ -10,17 +11,17 @@ public partial class Contas{
         Guard.IsNotNullOrWhiteSpace(email,nameof(email));
 
 
-        Nomeusuario = nomeusuario;
-        Senha = senha;
-        Email = email;
+          Nomeusuario = string.Empty;
+          Senha = string.Empty;
+          Email = string.Empty;
     }
     public Contas(){
 //entity framework
     }
-    public int Id {get; private set;}
-    public string Nomeusuario {get; private set;}
-    public string Senha {get; private set;}
-    public string Email {get; private set;}    
+    public int Id{get; private set;}
+    public string? Nomeusuario { get; private set; }
+    public string? Senha { get; private set; }
+     public string? Email { get; private set; }
 }
 
 

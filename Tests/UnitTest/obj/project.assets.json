@@ -2,10 +2,40 @@
   "version": 3,
   "targets": {
     "net7.0": {
+      "Bogus/35.6.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Bogus.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Bogus.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "coverlet.collector/3.2.0": {
         "type": "package",
         "build": {
           "build/netstandard1.0/coverlet.collector.targets": {}
+        }
+      },
+      "Faker.Net/2.0.163": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "2.0.3"
+        },
+        "compile": {
+          "lib/net60/Faker.Net.6.0.dll": {}
+        },
+        "runtime": {
+          "lib/net60/Faker.Net.6.0.dll": {}
+        },
+        "resource": {
+          "lib/net60/de-DE/Faker.Net.6.0.resources.dll": {
+            "locale": "de-DE"
+          }
         }
       },
       "FluentAssertions/6.12.0": {
@@ -21,6 +51,19 @@
         "runtime": {
           "lib/net6.0/FluentAssertions.dll": {
             "related": ".pdb;.xml"
+          }
+        }
+      },
+      "FluentValidation/11.10.0": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/FluentValidation.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/FluentValidation.dll": {
+            "related": ".xml"
           }
         }
       },
@@ -316,7 +359,33 @@
           "build/netcoreapp3.1/Microsoft.TestPlatform.TestHost.props": {}
         }
       },
-      "NETStandard.Library/2.0.0": {
+      "Microsoft.Toolkit/7.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Microsoft.Toolkit.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/Microsoft.Toolkit.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Microsoft.Toolkit.Diagnostics/7.1.2": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Microsoft.Toolkit.Diagnostics.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/Microsoft.Toolkit.Diagnostics.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "NETStandard.Library/2.0.3": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0"
@@ -428,10 +497,57 @@
             "rid": "win"
           }
         }
+      },
+      "Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Microsoft.Toolkit.Diagnostics": "7.1.2"
+        },
+        "compile": {
+          "bin/placeholder/Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Domain.dll": {}
+        }
+      },
+      "FabricaTeste/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Domain": "1.0.0",
+          "Faker.Net": "2.0.163",
+          "bogus": "35.6.1"
+        },
+        "compile": {
+          "bin/placeholder/FabricaTeste.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FabricaTeste.dll": {}
+        }
       }
     }
   },
   "libraries": {
+    "Bogus/35.6.1": {
+      "sha512": "QPJ8zLL0ScEunEoUNhMDigD4ykA/n7vXCZUQdGCFGHBfP2mNYjiCzR9Cj12eaFaDlwkhIC1HKQZihWl8OgbLsw==",
+      "type": "package",
+      "path": "bogus/35.6.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "bogus.35.6.1.nupkg.sha512",
+        "bogus.nuspec",
+        "lib/net40/Bogus.dll",
+        "lib/net40/Bogus.xml",
+        "lib/net6.0/Bogus.dll",
+        "lib/net6.0/Bogus.xml",
+        "lib/netstandard1.3/Bogus.dll",
+        "lib/netstandard1.3/Bogus.xml",
+        "lib/netstandard2.0/Bogus.dll",
+        "lib/netstandard2.0/Bogus.xml"
+      ]
+    },
     "coverlet.collector/3.2.0": {
       "sha512": "xjY8xBigSeWIYs4I7DgUHqSNoGqnHi7Fv7/7RZD02rvZyG3hlsjnQKiVKVWKgr9kRKgmV+dEfu8KScvysiC0Wg==",
       "type": "package",
@@ -485,6 +601,37 @@
         "coverlet.collector.nuspec"
       ]
     },
+    "Faker.Net/2.0.163": {
+      "sha512": "nQZA+V19Jf6tSeFnuRWpoVZzSHRmtfOYAnX5RbkY6+HBHpLg55DYTnxUSXeFHpmsgQzmkjG7Ucomk7FisJnfhA==",
+      "type": "package",
+      "path": "faker.net/2.0.163",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "faker.net.2.0.163.nupkg.sha512",
+        "faker.net.nuspec",
+        "lib/net452/Faker.Net.4.5.dll",
+        "lib/net452/de-DE/Faker.Net.4.5.resources.dll",
+        "lib/net462/Faker.Net.4.6.dll",
+        "lib/net462/de-DE/Faker.Net.4.6.resources.dll",
+        "lib/net472/Faker.Net.4.7.dll",
+        "lib/net472/de-DE/Faker.Net.4.7.resources.dll",
+        "lib/net48/Faker.Net.4.8.dll",
+        "lib/net48/de-DE/Faker.Net.4.8.resources.dll",
+        "lib/net50/Faker.Net.5.0.dll",
+        "lib/net50/de-DE/Faker.Net.5.0.resources.dll",
+        "lib/net60/Faker.Net.6.0.dll",
+        "lib/net60/de-DE/Faker.Net.6.0.resources.dll",
+        "lib/netcoreapp3.0/Faker.Net.Core.3.0.dll",
+        "lib/netcoreapp3.0/de-DE/Faker.Net.Core.3.0.resources.dll",
+        "lib/netcoreapp3.1/Faker.Net.Core.3.1.dll",
+        "lib/netcoreapp3.1/de-DE/Faker.Net.Core.3.1.resources.dll",
+        "lib/netstandard2.0/Faker.Net.Standard.2.0.dll",
+        "lib/netstandard2.0/de-DE/Faker.Net.Standard.2.0.resources.dll",
+        "lib/netstandard2.1/Faker.Net.Standard.2.1.dll",
+        "lib/netstandard2.1/de-DE/Faker.Net.Standard.2.1.resources.dll"
+      ]
+    },
     "FluentAssertions/6.12.0": {
       "sha512": "ZXhHT2YwP9lajrwSKbLlFqsmCCvFJMoRSK9t7sImfnCyd0OB3MhgxdoMcVqxbq1iyxD6mD2fiackWmBb7ayiXQ==",
       "type": "package",
@@ -513,6 +660,31 @@
         "lib/netstandard2.1/FluentAssertions.dll",
         "lib/netstandard2.1/FluentAssertions.pdb",
         "lib/netstandard2.1/FluentAssertions.xml"
+      ]
+    },
+    "FluentValidation/11.10.0": {
+      "sha512": "qsJGSJDdZ8qiG+lVJ70PZfJHcEdq8UQZ/tZDXoj78/iHKG6lVKtMJsD11zyyv/IPc7rwqGqnFoFLTNzpo3IPYg==",
+      "type": "package",
+      "path": "fluentvalidation/11.10.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "fluent-validation-icon.png",
+        "fluentvalidation.11.10.0.nupkg.sha512",
+        "fluentvalidation.nuspec",
+        "lib/net5.0/FluentValidation.dll",
+        "lib/net5.0/FluentValidation.xml",
+        "lib/net6.0/FluentValidation.dll",
+        "lib/net6.0/FluentValidation.xml",
+        "lib/net7.0/FluentValidation.dll",
+        "lib/net7.0/FluentValidation.xml",
+        "lib/net8.0/FluentValidation.dll",
+        "lib/net8.0/FluentValidation.xml",
+        "lib/netstandard2.0/FluentValidation.dll",
+        "lib/netstandard2.0/FluentValidation.xml",
+        "lib/netstandard2.1/FluentValidation.dll",
+        "lib/netstandard2.1/FluentValidation.xml"
       ]
     },
     "Microsoft.CodeCoverage/17.5.0": {
@@ -788,16 +960,67 @@
         "microsoft.testplatform.testhost.nuspec"
       ]
     },
-    "NETStandard.Library/2.0.0": {
-      "sha512": "7jnbRU+L08FXKMxqUflxEXtVymWvNOrS8yHgu9s6EM8Anr6T/wIX4nZ08j/u3Asz+tCufp3YVwFSEvFTPYmBPA==",
+    "Microsoft.Toolkit/7.1.0": {
+      "sha512": "Vq56gGFb7DWQwZyR1yL90a8VDwpfyVjo8Av2Inm+WDqjzwfQfUZpePDRVJpzRgSTpENQPoPVpsTGwUZtDN46LQ==",
       "type": "package",
-      "path": "netstandard.library/2.0.0",
+      "path": "microsoft.toolkit/7.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "License.md",
+        "ThirdPartyNotices.txt",
+        "lib/net5.0/Microsoft.Toolkit.dll",
+        "lib/net5.0/Microsoft.Toolkit.pdb",
+        "lib/net5.0/Microsoft.Toolkit.xml",
+        "lib/netstandard1.4/Microsoft.Toolkit.dll",
+        "lib/netstandard1.4/Microsoft.Toolkit.pdb",
+        "lib/netstandard1.4/Microsoft.Toolkit.xml",
+        "lib/netstandard2.0/Microsoft.Toolkit.dll",
+        "lib/netstandard2.0/Microsoft.Toolkit.pdb",
+        "lib/netstandard2.0/Microsoft.Toolkit.xml",
+        "lib/netstandard2.1/Microsoft.Toolkit.dll",
+        "lib/netstandard2.1/Microsoft.Toolkit.pdb",
+        "lib/netstandard2.1/Microsoft.Toolkit.xml",
+        "microsoft.toolkit.7.1.0.nupkg.sha512",
+        "microsoft.toolkit.nuspec"
+      ]
+    },
+    "Microsoft.Toolkit.Diagnostics/7.1.2": {
+      "sha512": "W4nhHiYbFbSLuDQGrf+Tpjfa3K0eMO7/G69xb1kZp6Kkst6wF0hZxk3whgDvkuSm2K+advhYB0wkD/ptQs+l/A==",
+      "type": "package",
+      "path": "microsoft.toolkit.diagnostics/7.1.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "License.md",
+        "ThirdPartyNotices.txt",
+        "lib/net5.0/Microsoft.Toolkit.Diagnostics.dll",
+        "lib/net5.0/Microsoft.Toolkit.Diagnostics.pdb",
+        "lib/net5.0/Microsoft.Toolkit.Diagnostics.xml",
+        "lib/netstandard1.4/Microsoft.Toolkit.Diagnostics.dll",
+        "lib/netstandard1.4/Microsoft.Toolkit.Diagnostics.pdb",
+        "lib/netstandard1.4/Microsoft.Toolkit.Diagnostics.xml",
+        "lib/netstandard2.0/Microsoft.Toolkit.Diagnostics.dll",
+        "lib/netstandard2.0/Microsoft.Toolkit.Diagnostics.pdb",
+        "lib/netstandard2.0/Microsoft.Toolkit.Diagnostics.xml",
+        "lib/netstandard2.1/Microsoft.Toolkit.Diagnostics.dll",
+        "lib/netstandard2.1/Microsoft.Toolkit.Diagnostics.pdb",
+        "lib/netstandard2.1/Microsoft.Toolkit.Diagnostics.xml",
+        "microsoft.toolkit.diagnostics.7.1.2.nupkg.sha512",
+        "microsoft.toolkit.diagnostics.nuspec"
+      ]
+    },
+    "NETStandard.Library/2.0.3": {
+      "sha512": "st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
+      "type": "package",
+      "path": "netstandard.library/2.0.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
-        "build/NETStandard.Library.targets",
         "build/netstandard2.0/NETStandard.Library.targets",
         "build/netstandard2.0/ref/Microsoft.Win32.Primitives.dll",
         "build/netstandard2.0/ref/System.AppContext.dll",
@@ -914,7 +1137,7 @@
         "build/netstandard2.0/ref/netstandard.dll",
         "build/netstandard2.0/ref/netstandard.xml",
         "lib/netstandard1.0/_._",
-        "netstandard.library.2.0.0.nupkg.sha512",
+        "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
     },
@@ -1114,12 +1337,27 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "Domain/1.0.0": {
+      "type": "project",
+      "path": "../../Domain/Domain.csproj",
+      "msbuildProject": "../../Domain/Domain.csproj"
+    },
+    "FabricaTeste/1.0.0": {
+      "type": "project",
+      "path": "../FabricaTeste/FabricaTeste.csproj",
+      "msbuildProject": "../FabricaTeste/FabricaTeste.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "Domain >= 1.0.0",
+      "FabricaTeste >= 1.0.0",
       "FluentAssertions >= 6.12.0",
+      "FluentValidation >= 11.10.0",
       "Microsoft.NET.Test.Sdk >= 17.5.0",
+      "Microsoft.Toolkit >= 7.0.3",
+      "Microsoft.Toolkit.Diagnostics >= 7.1.2",
       "NUnit >= 3.13.3",
       "NUnit.Analyzers >= 3.6.1",
       "NUnit3TestAdapter >= 4.4.2",
@@ -1157,7 +1395,14 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Vinicius\\TesteSoftware\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Vinicius\\TesteSoftware\\Domain\\Domain.csproj"
+            },
+            "C:\\Vinicius\\TesteSoftware\\Tests\\FabricaTeste\\FabricaTeste.csproj": {
+              "projectPath": "C:\\Vinicius\\TesteSoftware\\Tests\\FabricaTeste\\FabricaTeste.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -1174,9 +1419,21 @@
             "target": "Package",
             "version": "[6.12.0, )"
           },
+          "FluentValidation": {
+            "target": "Package",
+            "version": "[11.10.0, )"
+          },
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",
             "version": "[17.5.0, )"
+          },
+          "Microsoft.Toolkit": {
+            "target": "Package",
+            "version": "[7.0.3, )"
+          },
+          "Microsoft.Toolkit.Diagnostics": {
+            "target": "Package",
+            "version": "[7.1.2, )"
           },
           "NUnit": {
             "target": "Package",
@@ -1214,5 +1471,17 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "UnitTest depends on Microsoft.Toolkit (>= 7.0.3) but Microsoft.Toolkit 7.0.3 was not found. An approximate best match of Microsoft.Toolkit 7.1.0 was resolved.",
+      "libraryId": "Microsoft.Toolkit",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
 }

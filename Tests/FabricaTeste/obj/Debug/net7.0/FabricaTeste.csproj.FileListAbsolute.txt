@@ -1,0 +1,15 @@
+C:\Vinicius\TesteSoftware\Tests\FabricaTeste\bin\Debug\net7.0\FabricaTeste.deps.json
+C:\Vinicius\TesteSoftware\Tests\FabricaTeste\bin\Debug\net7.0\FabricaTeste.dll
+C:\Vinicius\TesteSoftware\Tests\FabricaTeste\bin\Debug\net7.0\FabricaTeste.pdb
+C:\Vinicius\TesteSoftware\Tests\FabricaTeste\bin\Debug\net7.0\Domain.dll
+C:\Vinicius\TesteSoftware\Tests\FabricaTeste\bin\Debug\net7.0\Domain.pdb
+C:\Vinicius\TesteSoftware\Tests\FabricaTeste\obj\Debug\net7.0\FabricaTeste.csproj.AssemblyReference.cache
+C:\Vinicius\TesteSoftware\Tests\FabricaTeste\obj\Debug\net7.0\FabricaTeste.GeneratedMSBuildEditorConfig.editorconfig
+C:\Vinicius\TesteSoftware\Tests\FabricaTeste\obj\Debug\net7.0\FabricaTeste.AssemblyInfoInputs.cache
+C:\Vinicius\TesteSoftware\Tests\FabricaTeste\obj\Debug\net7.0\FabricaTeste.AssemblyInfo.cs
+C:\Vinicius\TesteSoftware\Tests\FabricaTeste\obj\Debug\net7.0\FabricaTeste.csproj.CoreCompileInputs.cache
+C:\Vinicius\TesteSoftware\Tests\FabricaTeste\obj\Debug\net7.0\FabricaTeste.csproj.CopyComplete
+C:\Vinicius\TesteSoftware\Tests\FabricaTeste\obj\Debug\net7.0\FabricaTeste.dll
+C:\Vinicius\TesteSoftware\Tests\FabricaTeste\obj\Debug\net7.0\refint\FabricaTeste.dll
+C:\Vinicius\TesteSoftware\Tests\FabricaTeste\obj\Debug\net7.0\FabricaTeste.pdb
+C:\Vinicius\TesteSoftware\Tests\FabricaTeste\obj\Debug\net7.0\ref\FabricaTeste.dll
