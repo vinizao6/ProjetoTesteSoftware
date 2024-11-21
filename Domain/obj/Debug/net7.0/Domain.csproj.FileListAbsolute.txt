@@ -10,3 +10,10 @@ C:\Vinicius\TesteSoftware\Domain\obj\Debug\net7.0\Domain.dll
 C:\Vinicius\TesteSoftware\Domain\obj\Debug\net7.0\refint\Domain.dll
 C:\Vinicius\TesteSoftware\Domain\obj\Debug\net7.0\Domain.pdb
 C:\Vinicius\TesteSoftware\Domain\obj\Debug\net7.0\ref\Domain.dll
+C:\Vinicius\TesteSoftware\Domain\obj\Debug\net7.0\Domain.sourcelink.json
+C:\Users\vinicius.tomcix\Downloads\TesteSoftware (1)\TesteSoftware\Domain\obj\Debug\net7.0\Domain.csproj.AssemblyReference.cache
+C:\Users\vinicius.tomcix\Downloads\TesteSoftware (1)\TesteSoftware\Domain\obj\Debug\net7.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vinicius.tomcix\Downloads\TesteSoftware (1)\TesteSoftware\Domain\obj\Debug\net7.0\Domain.AssemblyInfoInputs.cache
+C:\Users\vinicius.tomcix\Downloads\TesteSoftware (1)\TesteSoftware\Domain\obj\Debug\net7.0\Domain.AssemblyInfo.cs
+C:\Users\vinicius.tomcix\Downloads\TesteSoftware (1)\TesteSoftware\Domain\obj\Debug\net7.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\vinicius.tomcix\Downloads\TesteSoftware (1)\TesteSoftware\Domain\obj\Debug\net7.0\Domain.sourcelink.json

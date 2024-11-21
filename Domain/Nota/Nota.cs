@@ -1,31 +1,23 @@
-using Microsoft.Toolkit.Diagnostics;
-namespace ProjetoTeste.Domain.Nota
+public class Nota
 {
-    public class Nota
+    public int Id { get; private set; }
+    public int AlunoId { get; private set; }
+    public int DisciplinaId { get; private set; }
+    public double Valor { get; private set; }
+    public DateTime DataRegistro { get; private set; }
+
+    public Nota(int alunoId, int disciplinaId, double valor)
     {
-        public Nota(string titulo, string conteudo, int importancia)
-        {
-            Guard.IsNotNullOrWhiteSpace(titulo, nameof(titulo));
-            Guard.IsNotNullOrWhiteSpace(conteudo, nameof(conteudo));
-            Guard.IsBetweenOrEqualTo(importancia, 1, 5, nameof(importancia));
+        AlunoId = alunoId;
+        DisciplinaId = disciplinaId;
+        RegistrarNota(valor);
+    }
 
-            Titulo = titulo;
-            Conteudo = conteudo;
-            Importancia = importancia;
-            
-        }
-            public Nota() { }
-
-        public string Titulo { get; private set; }
-        public string Conteudo { get; private set; }
-        public int Importancia { get; private set; }
-
-        public void RankearImportancia(int novaImportancia)
-        {
-            Guard.IsBetweenOrEqualTo(novaImportancia, 1, 5, nameof(novaImportancia));
-            Importancia = novaImportancia;
-        }
+    public void RegistrarNota(double valor)
+    {
+        if (valor < 0 || valor > 10)
+            throw new ArgumentException("Nota deve estar entre 0 e 10.");
+        Valor = valor;
+        DataRegistro = DateTime.Now;
     }
 }
-
-

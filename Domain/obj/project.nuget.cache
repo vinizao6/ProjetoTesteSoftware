@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "GRiXMcrEVlcFWtEhTp2+91d82EQxAciWpKQPPuAcCkrVaEIHXWgudXODyS46nB9TS7kwbkbBjBnHXgdmmXwY+Q==",
+  "dgSpecHash": "oCb9da9TlNU26Gz/0Z3gQ4vf0a5ihGAAI2PpszCpYXvEptWYDYzknfdLFLCew03kehKgivvJMMOD2FzchUXQBA==",
   "success": true,
-  "projectFilePath": "C:\\Vinicius\\TesteSoftware\\Domain\\Domain.csproj",
+  "projectFilePath": "C:\\Users\\vinicius.tomcix\\Downloads\\TesteSoftware (1)\\TesteSoftware\\Domain\\Domain.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\vinit\\.nuget\\packages\\microsoft.toolkit.diagnostics\\7.1.2\\microsoft.toolkit.diagnostics.7.1.2.nupkg.sha512"
+    "C:\\Users\\vinicius.tomcix\\.nuget\\packages\\microsoft.toolkit.diagnostics\\7.1.2\\microsoft.toolkit.diagnostics.7.1.2.nupkg.sha512",
+    "C:\\Users\\vinicius.tomcix\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.16\\microsoft.netcore.app.ref.7.0.16.nupkg.sha512",
+    "C:\\Users\\vinicius.tomcix\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.16\\microsoft.windowsdesktop.app.ref.7.0.16.nupkg.sha512",
+    "C:\\Users\\vinicius.tomcix\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.16\\microsoft.aspnetcore.app.ref.7.0.16.nupkg.sha512"
   ],
   "logs": []
 }

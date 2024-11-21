@@ -51,23 +51,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\vinit\\.nuget\\packages\\": {},
+    "C:\\Users\\vinicius.tomcix\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Vinicius\\TesteSoftware\\Domain\\Domain.csproj",
+      "projectUniqueName": "C:\\Users\\vinicius.tomcix\\Downloads\\TesteSoftware (1)\\TesteSoftware\\Domain\\Domain.csproj",
       "projectName": "Domain",
-      "projectPath": "C:\\Vinicius\\TesteSoftware\\Domain\\Domain.csproj",
-      "packagesPath": "C:\\Users\\vinit\\.nuget\\packages\\",
-      "outputPath": "C:\\Vinicius\\TesteSoftware\\Domain\\obj\\",
+      "projectPath": "C:\\Users\\vinicius.tomcix\\Downloads\\TesteSoftware (1)\\TesteSoftware\\Domain\\Domain.csproj",
+      "packagesPath": "C:\\Users\\vinicius.tomcix\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\vinicius.tomcix\\Downloads\\TesteSoftware (1)\\TesteSoftware\\Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\vinit\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\vinicius.tomcix\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -88,6 +88,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -110,12 +115,26 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[7.0.16, 7.0.16]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[7.0.16, 7.0.16]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[7.0.16, 7.0.16]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,14 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "VJnb+48RNNdtOW8CaEEiAsNqKdJHPDWRf9GZDit/zFADJVVnWpiPYQ69rKIqdREIei3Hw5Mmrjl7eC3gPWMzAQ==",
+  "dgSpecHash": "wQWYh6nvn7qMR8GexxoE8ntT76jdsZ3up4HRiKPwjB9fOi0gd3lIocOnSks6lxAE2JX8V/ZYOJEkRQp4MBATFA==",
   "success": true,
-  "projectFilePath": "C:\\Vinicius\\TesteSoftware\\Tests\\FabricaTeste\\FabricaTeste.csproj",
+  "projectFilePath": "C:\\Users\\vinicius.tomcix\\Downloads\\TesteSoftware (1)\\TesteSoftware\\Tests\\FabricaTeste\\FabricaTeste.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\vinit\\.nuget\\packages\\bogus\\35.6.1\\bogus.35.6.1.nupkg.sha512",
-    "C:\\Users\\vinit\\.nuget\\packages\\faker.net\\2.0.163\\faker.net.2.0.163.nupkg.sha512",
-    "C:\\Users\\vinit\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\vinit\\.nuget\\packages\\microsoft.toolkit.diagnostics\\7.1.2\\microsoft.toolkit.diagnostics.7.1.2.nupkg.sha512",
-    "C:\\Users\\vinit\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\vinicius.tomcix\\.nuget\\packages\\bogus\\35.6.1\\bogus.35.6.1.nupkg.sha512",
+    "C:\\Users\\vinicius.tomcix\\.nuget\\packages\\faker.net\\2.0.163\\faker.net.2.0.163.nupkg.sha512",
+    "C:\\Users\\vinicius.tomcix\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\vinicius.tomcix\\.nuget\\packages\\microsoft.toolkit.diagnostics\\7.1.2\\microsoft.toolkit.diagnostics.7.1.2.nupkg.sha512",
+    "C:\\Users\\vinicius.tomcix\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\vinicius.tomcix\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.16\\microsoft.netcore.app.ref.7.0.16.nupkg.sha512",
+    "C:\\Users\\vinicius.tomcix\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.16\\microsoft.windowsdesktop.app.ref.7.0.16.nupkg.sha512",
+    "C:\\Users\\vinicius.tomcix\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.16\\microsoft.aspnetcore.app.ref.7.0.16.nupkg.sha512"
   ],
   "logs": []
 }
